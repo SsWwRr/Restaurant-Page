@@ -1,0 +1,48 @@
+#menuContainer{
+    background-color: rgba(128,255,202,255);
+    border: 2vw solid rgba(250,255,180,255);
+    margin: 7vh;
+    width: 40vw;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding-bottom: 2vw;
+    
+}
+.menuItem{
+    display: grid;
+    grid-template-rows: 1fr 1fr 2fr;
+    text-align: center;
+}
+.itemName{
+    color: rgba(100,65,42,255);
+    font-size: 1.733vw;
+}
+.itemPriceContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.itemCurrency{
+    width: 3vw;
+    height: 4vh;
+}
+.itemPrice{
+    color: rgba(250,255,180,255);
+    font-size: 1.733vw;
+}
+.itemImage{
+    width: 8vw;
+    height: 10vh;
+}
+.itemImage:hover{
+    width: 10vw;
+    height: 12vh;
+}
+.itemImageContainer{
+    display: grid;
+    place-items: center;
+    border: 0.5vw solid rgba(250,255,180,255);
+}

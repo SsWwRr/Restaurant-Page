@@ -1,0 +1,46 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(128,255,202,255);
+  }
+
+#content{
+    background-image: url(/dist/pieski.jpg);
+    background-size: 25%;
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#headerContainer{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(128,255,202,255);
+    height: 10vh;
+    width: 20vw;
+    border: 2vh solid rgba(250,255,180,255);
+    border-radius: 40%;
+    margin: 5vh;
+}
+#header{
+    color: rgba(100,65,42,255);
+    font-size: 2vw;
+}
+#buttonContainer{
+    width: 30vw;
+    height: 7vh;
+    display: grid;
+    gap:1vw;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+.button{
+    background-color: rgba(128,255,202,255);
+    border: 1vh solid rgba(250,255,180,255);
+    color:rgba(100,65,42,255) ;
+    font-weight: bolder;
+    font-size: larger;
+}

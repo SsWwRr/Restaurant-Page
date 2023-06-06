@@ -1,0 +1,30 @@
+#contactContainer{
+    background-color: rgba(128,255,202,255);
+    border: 2vw solid rgba(250,255,180,255);
+    margin: 7vh;
+    width: 40vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#photoBorder{
+    display: flex;
+    justify-content: center;
+    border: 1vw solid rgba(250,255,180,255);
+    align-items: center;
+}
+#restaurantPhoto{
+    margin-left: 0.3vw;
+    margin-right: 0.3vw;
+    width: 25vw;
+    height: 20vh;
+}
+#restaurantPhoto:hover{
+    width: 30vw;
+    height: 25vh;
+}
+#contactNumber,#contactAdress{
+    color: rgba(100,65,42,255);
+    font-size: 1.733vw;
+}
